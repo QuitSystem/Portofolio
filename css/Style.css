@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    appearance: 0;
+    outline: none;
+    list-style-type: none;
+}
+
+body {
+    background-color: darkgray;
+}
+
+/* ========== Header ========== */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+.logo {
+    font-size: 2rem;
+    color: black;
+}
+
+.logo span {
+    padding: 5px;
+    border-radius: 5px;
+    color: lightgray;
+    background-color: black;
+}
+
+.navigation {
+    margin: 5px;
+}
+
+.navigation a {
+    padding: 5px;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.navigation a:hover {
+    padding: 5px;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: black;
+}
+
+/* ========== Main ========== */
+
+main {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* ========== Container About ========== */
+
+.container-about {
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.wrapper-about {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.head-about {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+.body-about {
+    margin-top: 5px;
+    padding: 2.5px;
+    color: white;
+}
